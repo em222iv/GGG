@@ -46,8 +46,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /*END CSS RESET*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-size: 2.0em;
+    font-family: "arial black";
+}
+
+.subheader{
+    font-size: 1.5em;
+    font-style: inherit;
+}
 
 .top-bar{
     margin-bottom: 20px;
@@ -58,6 +71,17 @@ table {
 }
 .last{
     padding-right: 0;
+}
+
+main section article{
+    display: block;
+    margin: 0 auto;
+    padding: 25px 25px;
+    border-bottom: 2px solid #ff280f;
+}
+
+main section article:last-of-type{
+    border-bottom:none;
 }
 
 /************************** MEDIA QUERIES *******************************/
