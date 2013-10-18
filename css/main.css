@@ -62,6 +62,10 @@ header h1{
     font-style: inherit;
 }
 
+.blogheader{
+    /*background: red;*/
+}
+
 .top-bar{
     margin-bottom: 20px;
 }
