@@ -2758,6 +2758,7 @@ label.error {
       padding: 0 !important; } }
 .no-js [data-section], .no-js .section-container {
   width: 100%;
+  
   position: relative;
   display: block;
   margin-bottom: 1.25em; }
