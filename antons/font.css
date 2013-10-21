@@ -1,0 +1,27 @@
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400');
+
+
+h1, h4{
+   font-family: 'Roboto Slab', serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+.background{
+    background: url('bgv.jpg') no-repeat;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.background div{
+
+    background: #ffffff;
+    opacity:0.8;
+}
+.background div li{
+    margin-left: 10px;
+}
