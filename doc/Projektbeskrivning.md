@@ -1,7 +1,8 @@
 
 # Porjekt KAK
 Projektmedlemmar: 
-[em222iv](https://github.com/em222iv), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+[em222iv](https://github.com/em222iv), [Grenmyr](https://github.com/Grenmyr), [SheriefBadran](https://github.com/SheriefBadran),
+[al223ec](https://github.com/al223ec)
 
 *Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
 
@@ -28,13 +29,11 @@ Eftersom vi valt att göra om en redan existerande sida(dock från scratch) så 
 
 ## Förstudier
 *Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
-Detta är Kalmar AKs nuvarande sida:[](https://www.sites.google.com/site/kalmarak/)
+Detta är Kalmar AKs nuvarande sida: <a href="https://www.sites.google.com/site/kalmarak/">Kalmar AK</a>
 Vi har gått igenom sidan och taigt ut det vi tycker känns nödvändigt att ha med till en nyare version.
 Vi gör inte om deras sida, vi skapar en helt ny från scratch och implementerar det vibehöver från den gamla sidan.
 
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
-
 ## Tidsplanering
-<link href="../Erik/GANTT - Goa Gubbars Grupp(GGG)">
+<a href="../Erik/GANTT - Goa Gubbars Grupp(GGG)">tidsplanering(GANTT)</a>
+
 
