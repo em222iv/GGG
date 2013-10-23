@@ -35,5 +35,5 @@ Vi gör inte om deras sida, vi skapar en helt ny från scratch och implementerar
 
 ## Tidsplanering
 
-[Tidsplanering](https://c9.io/em222iv/ggg/workspace/Erik/GANTT - Goa Gubbars Grupp(GGG).pdf)
+[Tidsplanering](https://c9.io/em222iv/ggg/workspace/Erik/GANTT.pdf)
 
