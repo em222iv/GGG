@@ -1,4 +1,4 @@
-# Dokumentation
+# Dokumentationheruj
 I denna katalog samlar ni dokumentation till kursledningen. Det går även bra att lägga upp annan typ av dokumentation i denna katalog.
 
 Du kan editera projektbeskrivningen direkt på GitHub (Edit) eller via exempelvis Cloud9 och sedan göra en commit och en push som vanligt.

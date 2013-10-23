@@ -1,5 +1,5 @@
 
-# Projekt KAK111
+# Projekt KAK
 Projektmedlemmar: 
 [em222iv](https://github.com/em222iv), [Grenmyr](https://github.com/Grenmyr), [SheriefBadran](https://github.com/SheriefBadran),
 [al223ec](https://github.com/al223ec)
@@ -14,7 +14,6 @@ Projektmedlemmar:
 *En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
 Vi har en  förenat intresse kring träning och fick idén om att göra om kalmars AKs hemsida då vi inte tycker den håller dagens mått.
 Vi vill skapa en modernare version av deras site som passar deras typ av användare och ge den en snygg, lättmanövrerad, design.
-
 
 ## Tekniker
 *Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
