@@ -29,11 +29,11 @@ Eftersom vi valt att göra om en redan existerande sida(dock från scratch) så 
 
 ## Förstudier
 *Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
-Detta är Kalmar AKs nuvarande sida: <a href="https://www.sites.google.com/site/kalmarak/">Kalmar AK</a>
+Detta är Kalmar AKs nuvarande sida: [Kalmar AK](https://www.sites.google.com/site/kalmarak/)
 Vi har gått igenom sidan och taigt ut det vi tycker känns nödvändigt att ha med till en nyare version.
 Vi gör inte om deras sida, vi skapar en helt ny från scratch och implementerar det vibehöver från den gamla sidan.
 
 ## Tidsplanering
-<a href="../Erik/GANTT - Goa Gubbars Grupp(GGG)">tidsplanering(GANTT)</a>
 
+[Tidsplanering](https://c9.io/em222iv/ggg/workspace/Erik/GANTT - Goa Gubbars Grupp(GGG).pdf)
 
