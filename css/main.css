@@ -57,6 +57,10 @@ header h1{
     font-family: "arial black";
 }
 
+.news{
+    display: none;
+}
+
 .subheader{
     font-size: 1.5em;
     font-style: inherit;
@@ -94,4 +98,8 @@ main section article:last-of-type{
     .columns{
         padding: 0 20px 0 20px;
     }
+    
+    .news{
+        display: block;
+    }    
 }
