@@ -11,14 +11,30 @@ body{
     font-size:14px;
 }
 
-.background{
-    background: url('bgv.jpg') no-repeat;
-    padding:10px;
-
+img{
+    margin:auto;
 }
 
-.background div{
+article footer{
+    background: #000000;
+    color: #ffffff;
+    margin:10px;
+    padding:10px;
+    font-family: 'Roboto Slab', serif;
+    font-size:12px;
+}
+
+.background{
+    background: url('img/bgv.jpg') no-repeat;
+    padding:10px;
+}
+
+.background section{
 
     background: #ffffff;
     opacity:0.8;
+}
+
+.news{
+    display: none;
 }

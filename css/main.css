@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eri'c/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*END CSS RESET*/
+/*END CSS RESET
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -67,7 +67,7 @@ header h1{
 }
 
 .blogheader{
-    /*background: red;*/
+    /*background: red;
 }
 
 .top-bar{
@@ -80,7 +80,10 @@ header h1{
 .last{
     padding-right: 0;
 }
-
+*/
+.news{
+    display: none;
+}
 main section article{
     display: block;
     margin: 0 auto;
