@@ -30,11 +30,24 @@ article footer{
 }
 
 .background section{
-
     background: #ffffff;
     opacity:0.8;
 }
 
 .news{
     display: none;
+}
+@media only screen and (max-width: 768px){
+    
+    .news{
+        display:block;
+    }
+    
+    .background{
+        padding:0;
+    }
+    article footer{
+        margin:0;
+        margin-bottom:10px;
+    }
 }
