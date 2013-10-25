@@ -1,0 +1,235 @@
+#wrapper {
+    background-image: url('pics/bbk0.jpg');
+    height: 1000px;
+}
+#container {
+    margin: auto;
+    padding: 30px;
+    min-height: 200px;
+    max-width: 1050px;
+}
+#container > h1 {
+    text-align: center;
+    margin-top: -15px;
+    font-family: "Arial Black";
+}
+
+.images {
+    width: 250px;
+    height: 200px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 2px 4px 2px 2px;
+    background-image: url('pics/bk.jpg');
+    border-radius: 4px;
+    border: 1px solid #666;
+}
+.images:hover #image1, .images:hover #image2, .images:hover #image3, .images:hover #image4, .images:hover #image5,
+.images:hover #image6, .images:hover #image7, .images:hover #image8 {
+    top: -170px;
+}
+
+.images:focus #image1, .images:focus #image2, .images:focus #image3, .images:focus #image4, .images:focus #image5,
+.images:focus #image6, .images:focus #image7, .images:focus #image8 {
+    top: -170px;
+}
+
+
+.images #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8 {
+    
+    -webkit-box-shadow: 3px 3px 3px 7px rgba(0,0,0,.3);
+    -moz-box-shadow: 3px 3px 3px 7px rgba(0,0,0,.3);
+    -o-box-shadow: 4px 4px 4px 4px rgba(0,0,0,.3);
+    -ms-box-shadow: 4px 4px 4px 4px rgba(0,0,0,.3);
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.3);
+}
+#image1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url('pics/arnold.jpg');
+    background-repeat: none;
+    border-radius: 4px;
+    -webkit-transition: top 1s ease-in-out;
+    -moz-transition: top 1s ease-in-out;
+    -o-transition: top 1s ease-in-out;
+    -ms-transition: top 1s ease-in-out;
+    transition: top 1s ease-in-out;
+    
+}
+#image2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url('pics/markk.jpg');
+    border-radius: 4px;
+     -webkit-transition: top 1s ease-in-out;
+    -moz-transition: top 1s ease-in-out;
+    -o-transition: top 1s ease-in-out;
+    -ms-transition: top 1s ease-in-out;
+    transition: top 1s ease-in-out;
+}
+#image3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url('pics/instrucotr.jpg');
+    border-radius: 4px;
+   -webkit-transition: top 1s ease-in-out;
+    -moz-transition: top 1s ease-in-out;
+    -o-transition: top 1s ease-in-out;
+    -ms-transition: top 1s ease-in-out;
+    transition: top 1s ease-in-out;
+}
+#image4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url('pics/hantel.jpg');
+    border-radius: 4px;
+    -webkit-transition: top 1s ease-in-out;
+    -moz-transition: top 1s ease-in-out;
+    -o-transition: top 1s ease-in-out;
+    -ms-transition: top 1s ease-in-out;
+    transition: top 1s ease-in-out;
+}
+#image5 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url('pics/muskel.jpg');
+    border-radius: 4px;
+ -webkit-transition: top 1s ease-in-out;
+    -moz-transition: top 1s ease-in-out;
+    -o-transition: top 1s ease-in-out;
+    -ms-transition: top 1s ease-in-out;
+    transition: top 1s ease-in-out;
+}
+#image6 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url('pics/freew.jpg');
+    border-radius: 4px;
+    -webkit-transition: top 1s ease-in-out;
+    -moz-transition: top 1s ease-in-out;
+    -o-transition: top 1s ease-in-out;
+    -ms-transition: top 1s ease-in-out;
+    transition: top 1s ease-in-out;
+}
+#image7 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url('pics/gymhntel.jpg');
+    border-radius: 4px;
+  -webkit-transition: top 1s ease-in-out;
+    -moz-transition: top 1s ease-in-out;
+    -o-transition: top 1s ease-in-out;
+    -ms-transition: top 1s ease-in-out;
+    transition: top 1s ease-in-out;
+}
+#image8 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url('pics/mdrama.jpg');
+    border-radius: 4px;
+ -webkit-transition: top 1s ease-in-out;
+    -moz-transition: top 1s ease-in-out;
+    -o-transition: top 1s ease-in-out;
+    -ms-transition: top 1s ease-in-out;
+    transition: top 1s ease-in-out;
+}
+
+#wideimages  {
+    width: 98%;
+    height: 230px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-image: url('pics/bk1.jpg');
+    border-radius: 4px;
+    border: 1px solid #666;
+}
+#wideimages:hover #image9 {
+    bottom: -200px;
+}
+
+#image9 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: url('pics/widegym.jpg');
+    border-radius: 4px;
+    -webkit-transition: bottom 1s ease-in-out;
+    -moz-transition: bottom 1s ease-in-out;
+    -o-transition: bottom 1s ease-in-out;
+    -ms-transition: bottom 1s ease-in-out;
+    transition: bottom 1s ease-in-out;
+    
+    -webkit-box-shadow: 3px 3px 3px 7px rgba(0,0,0,.3);
+    -moz-box-shadow: 3px 3px 3px 7px rgba(0,0,0,.3);
+    -o-box-shadow: 4px 4px 4px 4px rgba(0,0,0,.3);
+    -ms-box-shadow: 4px 4px 4px 4px rgba(0,0,0,.3);
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.3);
+}
+
+.textcontent {
+    margin: auto;
+}
+.textcontent h1{
+    text-align:center;
+    padding: 15px;
+    margin-top: 10px;
+}
+.textcontent p{
+    margin:auto;
+    width: 80%;
+    padding: 15px;
+}
+
+@media only screen and (max-device-width: 520px) {
+
+#wrapper {
+height: 2050px;
+}
+#container {
+
+    padding: 30px;
+    min-height: 200px;
+    width: 100%;
+}
+#wideimages  {
+    max-width: 250px;
+    height: 230px;
+    display: block;
+    overflow: hidden;
+
+}
+#image9 {
+    max-width: 250px;
+    height:100%;
+    display: block;
+    border-radius: 4px;
+}
+.textcontent h1{
+    margin-left:-40px;
+    color: #E00000;
+    padding: 15px;
+    text-align:center;
+    margin-top: 50px;
+    opacity:0.4;
+}
+}
