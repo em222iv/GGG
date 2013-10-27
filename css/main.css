@@ -84,6 +84,7 @@ header h1{
 .news{
     display: none;
 }
+
 main section article{
     display: block;
     margin: 0 auto;
@@ -104,5 +105,5 @@ main section article:last-of-type{
     
     .news{
         display: block;
-    }    
+    }
 }

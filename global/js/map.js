@@ -127,7 +127,7 @@ window.onload = function(){
 						mapTypeId: google.maps.MapTypeId.ROADMAP
 					};
 					
-					mapHolder = document.querySelector('#map');
+					mapHolder = document.getElementById('map');
 					map = new google.maps.Map(mapHolder, mapOptions);
 					render.addMarker(latlng, true);
 					origin = render.markers[0].getPosition();
