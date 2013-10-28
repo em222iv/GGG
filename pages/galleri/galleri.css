@@ -31,10 +31,10 @@
     top: -170px;
 }
 
-.images:focus #image1, .images:focus #image2, .images:focus #image3, .images:focus #image4, .images:focus #image5,
+/*.images:focus #image1, .images:focus #image2, .images:focus #image3, .images:focus #image4, .images:focus #image5,
 .images:focus #image6, .images:focus #image7, .images:focus #image8 {
     top: -170px;
-}
+}*/
 
 
 .images #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8 {
@@ -106,7 +106,7 @@
     display: block;
     background: url('pics/muskel.jpg');
     border-radius: 4px;
- -webkit-transition: top 1s ease-in-out;
+    -webkit-transition: top 1s ease-in-out;
     -moz-transition: top 1s ease-in-out;
     -o-transition: top 1s ease-in-out;
     -ms-transition: top 1s ease-in-out;
@@ -145,7 +145,7 @@
     display: block;
     background: url('pics/mdrama.jpg');
     border-radius: 4px;
- -webkit-transition: top 1s ease-in-out;
+    -webkit-transition: top 1s ease-in-out;
     -moz-transition: top 1s ease-in-out;
     -o-transition: top 1s ease-in-out;
     -ms-transition: top 1s ease-in-out;
@@ -206,7 +206,7 @@
     opacity:0.3;
 }
 
-@media only screen and (max-device-width: 481px) {
+@media only screen and (max-device-width: 480px) {
 
 #wrapper {
 height: 2050px;
@@ -237,5 +237,12 @@ height: 2050px;
     text-align:center;
     margin-top: 50px;
     opacity:0.4;
+}
+#link {
+    margin-top: -10px;
+    float:right;
+    text-decoration: none;
+    color: black;
+    opacity:0.3;
 }
 }
