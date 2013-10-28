@@ -15,6 +15,10 @@ img{
     margin:auto;
 }
 
+li {
+    list-style:none;
+}
+
 article footer{
     background: #000000;
     color: #ffffff;
@@ -42,7 +46,7 @@ article footer{
     .news{
         display:block;
     }
-    
+
     .background{
         padding:0;
     }
