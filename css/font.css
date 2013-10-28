@@ -34,6 +34,10 @@ article footer{
     opacity:0.8;
 }
 
+.background section li{
+    list-style:none;
+}
+
 .news{
     display: none;
 }
@@ -42,7 +46,7 @@ article footer{
     .news{
         display:block;
     }
-    
+
     .background{
         padding:0;
     }
