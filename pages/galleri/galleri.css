@@ -28,6 +28,7 @@
     background-image: url('pics/bk.jpg');
     border-radius: 4px;
     border: 1px solid #666;
+    
 }
 
 .images:hover #image1, .images:hover #image2, .images:hover #image3, .images:hover #image4, .images:hover #image5,
@@ -57,11 +58,6 @@
     background: url('pics/arnold.jpg');
     background-repeat: none;
     border-radius: 4px;
-    -webkit-transition: top 1s ease-in-out;
-    -moz-transition: top 1s ease-in-out;
-    -o-transition: top 1s ease-in-out;
-    -ms-transition: top 1s ease-in-out;
-    transition: top 1s ease-in-out;
     
 }
 #image2 {
