@@ -42,12 +42,6 @@
         <li class="has-dropdown"> <a href="#">Ryck och Stöt</a>
           <ul class="dropdown">
             <li><a href="../ryckstot/OL.html">Vad är OL</a></li>
-            <li class="has-dropdown"> <a href="#" class="">Rekord</a>
-              <ul class="dropdown">
-                <li><a href="../ryckstot/rekord/klubbrekord.html">Svenska Rekord</a></li>
-                <li><a href="../ryckstot/rekord/svenskarekord.html">Klubbrekord</a></li>
-              </ul>
-            </li>
             <li><a href="../ryckstot/SvTLF.html">Svenska Tyngdlyftningsforbundet</a></li>
             <li><a href="../ryckstot/kalender.html">Tävlingskalender</a></li>
             <li class="divider"></li>
@@ -63,8 +57,6 @@
               <label>Styrelsen</label>
             </li>
             <li><a href="../styrelsen/protokoll.html">Protokoll</a></li>
-            <li><a href="../styrelsen/protokollrs.html">Protokoll Ryck och Stöt</a></li>
-            <li><a href="../styrelsen/protokollsl.html">Protokoll Styrkelyft</a></li>
             <li class="divider"></li>
             <li>
               <label>Stadgar</label>
@@ -102,8 +94,8 @@
       Man har tre försök på varje delgren. Missar man lyftet får man prova igen på samma vikt eller höja. Varje lyft bedöms av tre domare. 
       Varje domare godkänner eller underkänner lyftet, och det är majoriteten som avgör vad resultatet blir. </p>
     <ul>
-      <li><a href="">Träningstider</a></li>
-      <li><a href="">Tävlingskalender</a></li>
+      <li><a href="#traningstider">Träningstider</a></li>
+      <li><a href="#tavlingskalender">Tävlingskalender</a></li>
       <li><a href="">Svenska styrkeLyftsförbundet</a></li>
     </ul>
     <hr />
@@ -136,17 +128,18 @@
   </div>
   <div class="large-4 columns"> <img src="img/dead.png" alt="Marklyft"> </div>
 </article>
-<div class="row">
-  <hr />
-</div>
 <article class="row">
-  <div class="large-4 columns">
-    <h4>Träningstider Styrkelyft</h4>
+      <hr />
+  <div class="large-12 columns">
+    <h4 id="traningstider">Träningstider Styrkelyft</h4>
     <p> Mån, ons och fredag mellan 18.00 till 20.00 </p>
-    Kom ner och häng på! </div>
-  <div class="large-8 columns">
-    <h4>Tävlingskalender 2013</h4>
-    <table class="large-12 columns">
+    <p>Kom ner och häng på! </p>
+    </div>
+    <hr />
+</article>
+<article class="row">
+<h4 id="tavlingskalender">Tävlingskalender 2013</h4>
+<table class="large-12 columns">
       <tbody>
         <tr>
           <td colspan="4"><h5>Januari</h5></td>
@@ -203,6 +196,7 @@
           <td>2-12</td>
           <td>Serieomgång 2</td>
           <td>Utr. + kl</td>
+          <td></td>
         </tr>
         <tr>
           <td>7-11</td>
@@ -237,30 +231,79 @@
           <td colspan="4"><h5>Augusti</h5></td>
         </tr>
         <tr>
-          <td>6</td>
-          <td>Status</td>
-          <td>Datum</td>
+          <td>8-10</td>
+          <td>EM bänkpress</td>
+          <td>Senior</td>
+          <td>Bratislava, Slovakien</td>
+        </tr>
+        <tr>
+          <td>27/8-1/9</td>
+          <td>U/J-VM styrkelyft</td>
+          <td>Ungdom/Junior</td>
+          <td>Killeen, USA</td>
         </tr>
         <tr>
           <td colspan="4"><h5>September</h5></td>
         </tr>
         <tr>
+          <td>13-14</td>
+          <td>Western European Championships SL</td>
+          <td>Senior</td>
+          <td>Blanquefort, Frankrike</td>
+        </tr>
+        <tr>
+          <td>19-29</td>
+          <td>DM + Serieomgång 3 bänkpress</td>
+          <td>Utr. + kl</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>23-30</td>
+          <td>Master-VM styrkelyft</td>
+          <td>Veteran</td>
+          <td>Orlando, USA</td>
+        </tr>
+        <tr>
           <td colspan="4"><h5>Oktober</h5></td>
+        </tr>
+        <tr>
+          <td>17-19</td>
+          <td>Master-EM bänkpress</td>
+          <td>Veteran</td>
+          <td>Sofia, Bulgarien</td>
+        </tr>
+        <tr>
+          <td>31/10-10/11</td>
+          <td>DM + Serieomgång 3 styrkelyft</td>
+          <td>Utr. + kl</td>
+          <td></td>
         </tr>
         <tr>
           <td colspan="4"><h5>November</h5></td>
         </tr>
         <tr>
+          <td>5-10</td>
+          <td>VM styrkelyft</td>
+          <td>Senior</td>
+          <td>Stavanger</td>
+        </tr>
+        <tr>
+          <td>22-24</td>
+          <td>SM bänkpress</td>
+          <td>Ungdom/Junior/Veteran</td>
+          <td>Sundbyberg</td>
+        </tr>
+        <tr>
           <td colspan="4"><h5>December</h5></td>
         </tr>
-      </tbody>
-      <tfoot>
         <tr>
-          <td colspan="4">Laborationsresultat för Anton Ledström</td>
+          <td>6-8</td>
+          <td>Lag-SM styrkelyft och bänkpress</td>
+          <td></td>
+          <td></td>
         </tr>
-      </tfoot>
+      </tbody>
     </table>
-  </div>
 </article>
 <span>
 <script>
@@ -289,5 +332,25 @@
         $(document).foundation();
         </script>
 </span>
+  <footer class="row">
+            <div class="large-12 columns">
+                <hr />
+                <div class="row">
+                    <div class="large-6 columns">
+                        <p>
+                            &copy; Copyright no one at all. Go to town.
+                        </p>
+                    </div>
+                    <div class="large-6 columns">
+                        <ul class="inline-list right">
+                            <li><a href="../galleri/gallerii.html">Bildgalleri</a></li>
+                            <li><a href="#">Hitta hit</a></li>
+                            <li><a href="#">kontakta oss</a></li>
+                            <li><a href="https://github.com/em222iv/GGG">Goa Gubbars Grupp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>

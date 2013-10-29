@@ -1,21 +1,24 @@
 #wrapper {
+    margin-top: 600px;
+    margin:auto;
     background-image: url('pics/bbk0.jpg');
-    height: 1000px;
+    height: 1200px;
+    width:100%;
 }
-#container {
+#containern {
     margin: auto;
     padding: 30px;
     min-height: 200px;
     max-width: 1050px;
 }
-#container > h1 {
+#containern > h1 {
     text-align: center;
     margin-top: -15px;
     font-family: "Arial Black";
 }
 
 .images {
-    width: 250px;
+    width: 237px;
     height: 200px;
     float: left;
     display: block;
@@ -25,7 +28,9 @@
     background-image: url('pics/bk.jpg');
     border-radius: 4px;
     border: 1px solid #666;
+    
 }
+
 .images:hover #image1, .images:hover #image2, .images:hover #image3, .images:hover #image4, .images:hover #image5,
 .images:hover #image6, .images:hover #image7, .images:hover #image8 {
     top: -170px;
@@ -53,11 +58,6 @@
     background: url('pics/arnold.jpg');
     background-repeat: none;
     border-radius: 4px;
-    -webkit-transition: top 1s ease-in-out;
-    -moz-transition: top 1s ease-in-out;
-    -o-transition: top 1s ease-in-out;
-    -ms-transition: top 1s ease-in-out;
-    transition: top 1s ease-in-out;
     
 }
 #image2 {
@@ -211,7 +211,7 @@
 #wrapper {
 height: 2050px;
 }
-#container {
+#containern {
 
     padding: 30px;
     min-height: 200px;
