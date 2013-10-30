@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
-        <title>Kalmar Ak</title>
+        <title>Kontakta oss</title>
         <link rel="icon" type="image/x-icon" href="../../image.ico" />
         <link rel="icon" type="img/png" href="../../image.png" />
         <!--
@@ -37,13 +37,13 @@
                     <ul class="left">
                         <li class="divider"></li>
                         <li class="news"><a  href="#">Nyheter/Blogg!</a></li>
-                        <li><a href="pages/aktivitet.html">Aktivitetskalender</a></li>
+                        <li><a href="aktivitet.html">Aktivitetskalender</a></li>
                         <li class="divider"></li>
                         <li class="has-dropdown"> <a href="#">Ryck och Stöt</a>
                             <ul class="dropdown">
-                                <li><a href="pages/ryckstot/OL.html">Vad är OL</a></li>
+                                <li><a href="ryckstot/OL.html">Vad är OL</a></li>
                                 <li><a href="http://iof3.idrottonline.se/SvenskaTyngdlyftningsforbundet"target=newtab>Svenska Tyngdlyftningsforbundet</a></li>
-                                <li><a href="pages/ryckstot/kalender.html">Tävlingskalender</a></li>
+                                <li><a href="ryckstot/kalender.html">Tävlingskalender</a></li>
                                 <li class="divider"></li>
                             </ul>
                         </li>
@@ -56,25 +56,25 @@
                                 <li>
                                   <label>Styrelsen</label>
                                 </li>
-                                <li><a href="pages/styrelsen/protokoll.html">Protokoll</a></li>
+                                <li><a href="styrelsen/protokoll.html">Protokoll</a></li>
                                 <li class="divider"></li>
                                 <li>
                                   <label>Stadgar</label>
                                 </li>
-                                <li><a href="pages/stadgar/dopningspolicy.html">Dopningspolicy</a></li>
-                                <li><a href="pages/stadgar/historik.html">Historik</a></li>
+                                <li><a href="stadgar/dopningspolicy.html">Dopningspolicy</a></li>
+                                <li><a href="stadgar/historik.html">Historik</a></li>
                                 <li class="divider"></li>
                             </ul>
                         </li>
                             <li class="divider"></li>
-                            <li><a href="#">Kontakt</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
                             <li class="divider"></li>
                             <li class="has-dropdown"> <a href="#">Styrkelyft</a>
                                 <ul class="dropdown">
-                                    <li><a href="pages/styrkelyft/SL.html">Vad är SL</a></li>
-                                    <li><a href="pages/styrkelyft/traningstider.html">Träningstider</a></li>
-                                    <li><a href="pages/styrkelyft/kalender2013.html">Tävlingskalender 2013</a></li>
-                                    <li><a href="pages/styrkelyt/SSF.html">SvenskaStyrkelyftforbundet</a></li>
+                                    <li><a href="styrkelyft/SL.html">Vad är SL</a></li>
+                                    <li><a href="styrkelyft/traningstider.html">Träningstider</a></li>
+                                    <li><a href="styrkelyft/kalender2013.html">Tävlingskalender 2013</a></li>
+                                    <li><a href="http://iof3.idrottonline.se/SvenskaStyrkelyftforbundet/" target="_blank">Svenska Styrkelyftförbundet</a></li>
                                     <li class="divider"></li>
                                 </ul>
                             </li>
@@ -116,8 +116,13 @@
           <hr />
         </div>
         
+        
         <!-- Main Section -->
         <main class="row">
+        <h1>Kontakta oss</h1>
+          <div class="row">
+          <hr />
+        </div>
             <!-- GRID CONTACT FORM LAYOUT -->
             <form data-abide class="columns">
                 <fieldset>
@@ -162,16 +167,19 @@
             </form>
             <!-- END CONTACT FORM -->
             
-            
-            <section class="row">
-                <div id="route" class="large-2 columns">
-                    <p>Distance: <span id="total"></span></p>
-					<button id="clear">clear</button>
-                </div>
-                <div id="map" class="large-9 columns left" style="height: 400px; display: block">
-                    <!--PLACEHOLDER FOR MAP --><!--PLACEHOLDER FOR MAP -->
-                </div>
-            </section>
+            <!-- Google Map -->
+            <div id"#karta">
+                <section class="row">
+                    <div id="route" class="large-2 large-offset-1 small-offset-1 columns">
+                        <p>Distance: <span id="total"></span></p>
+    					<button id="clear">clear</button>
+                    </div>
+                    <div id="map" class="large-8 columns left" style="height: 400px; display: block">
+                        <!--PLACEHOLDER FOR MAP -->
+                    </div>
+                </section>
+            </div>
+            <!-- End Google Map -->
         </main>
         <!-- End Main Grid Section -->
         
@@ -189,9 +197,9 @@
                     </div>
                     <div class="large-6 columns">
                         <ul class="inline-list right">
-                            <li><a href="pages/galleri/gallerii.html">Bildgalleri</a></li>
-                            <li><a href="#">Hitta hit</a></li>
-                            <li><a href="#">kontakta oss</a></li>
+                            <li><a href="galleri/gallerii.html">Bildgalleri</a></li>
+                            <li><a href="pages/kontakt.html">kontakta oss</a></li>
+                            <li><a href="pages/kontakt.html">kontakta oss</a></li>
                             <li><a href="https://github.com/em222iv/GGG">Goa Gubbars Grupp</a></li>
                         </ul>
                     </div>
