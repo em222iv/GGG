@@ -46,6 +46,9 @@ article footer{
 }
 @media only screen and (max-width: 768px){
     
+    .blogg {
+        display: none;
+    }
     .news{
         display:block;
     }
