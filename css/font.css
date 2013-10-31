@@ -41,6 +41,9 @@ article footer{
 .news{
     display: none;
 }
+#route button{
+
+}
 @media only screen and (max-width: 768px){
     
     .news{
