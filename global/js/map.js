@@ -1,5 +1,9 @@
 window.onload = function(){
-
+// REFERENCES: 
+// www.sitepoint.com/create-a-polyline-using-the-geolocation-and-the-google-maps-api
+// https://developers.google.com/maps/documentation
+// https://developers.google.com/maps/documentation/javascript/tutorial#api_key
+// jsfiddle.net/9T7Vg
         
     var map;
     var split = true; // split to many renderers or not?
@@ -24,16 +28,20 @@ window.onload = function(){
                 }
 
                 // clear the renders array
-                render.renders = [];                
+                render.renders = [];
+                
+                return true;
             }
                     
             if(distance && typeof distance == 'boolean'){
-                    // clear the distances array
-                    render.distances = [];
+                // clear the distances array
+                render.distances = [];
                     
-                    // clear total box from pTags containing distance values
-                    var totalBox = document.querySelector('#total');
-                    totalBox.innerHTML = "";
+                // clear total box from pTags containing distance values
+                var totalBox = document.querySelector('#total');
+                totalBox.innerHTML = "";
+                    
+                return true;    
             }
         },
         
