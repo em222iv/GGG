@@ -6,23 +6,39 @@ window.onload = function(){
 	var render = {
 	    renders: [],
 	    markers: [],
+		distances: [],
 	
-	    clear: function(){
-			// Iterate through markers array and and un-set them from the map.
-	        for(var i = 0; i < render.markers.length; i++){
-	            render.markers[i].setMap(null);
-	        }
+	    clear: function(map, distance){
+		
+			if(map && typeof map == 'boolean')
+			{
+				// Iterate through markers array and and un-set them from the map.
+		        for(var i = 0; i < render.markers.length; i++){
+		            render.markers[i].setMap(null);
+		        }
+
+				// clear the markers array
+		        render.markers = [];
+
+
+		        for(var i = 0; i < render.renders.length; i++){
+		            render.renders[i].setMap(null);
+		        }
+
+				// clear the renders array
+		        render.renders = [];		
+			}
 			
-			// clear the markers array
-	        render.markers = [];
-	
-			
-	        for(var i = 0; i < render.renders.length; i++){
-	            render.renders[i].setMap(null);
-	        }
-	
-			// clear the renders array
-	        render.renders = [];
+			if(distance && typeof distance == 'boolean')
+			{
+				// clear the distances array
+				render.distances = [];
+				
+				// clear total box from pTags containing distance values
+				var totalBox = document.querySelector('#total');
+				totalBox.innerHTML = "";
+			}
+
 	    },
 	
 	    add: function(directions){
@@ -157,9 +173,7 @@ window.onload = function(){
 
 	var clearButton = document.querySelector("#clear");
 	clearButton.onclick = function(){
-		render.clear();
-		var totalBox = document.querySelector('#total');
-		console.log(totalBox);
+		render.clear(false, true);
 	}	
 }
 
@@ -186,6 +200,9 @@ function getDirection(route, callback){
 }
 
 function computeTotalDistance(renderObj) {
+	// cash the distances array in a local variable.
+	var distances = renderObj.distances;
+	
     var total = 0;
 
     renderObj.legs(function(leg){
@@ -194,10 +211,23 @@ function computeTotalDistance(renderObj) {
 
     total = total / 1000;
 	
+	// create p element and insert distance value into it
 	var pTag = document.createElement('p');
 	pTag.innerHTML += total + " km";
+	
+	if(distances.length < 10)
+	{
+		// add created pTag with it's distance value to the distances array 
+		distances.push(pTag);
+	}
+	
+	// retrieve the totalBox div element
 	var totalBox = document.querySelector('#total');
-	totalBox.appendChild(pTag);
+	
+	// iterate through all pTag's in the distances array and append each pTag into the totalBox.
+	for(var i=0, max = distances.length; i<max; i++){
+		totalBox.appendChild(distances[i]);
+	}
 }
 
 function toLocation(location){
