@@ -57,7 +57,7 @@ window.onload = function(){
             var directionsRenderer = new google.maps.DirectionsRenderer(options);       
 
             if(split){
-                onsole.log(directions.routes[0]);
+                console.log(directions.routes[0]);
                 var marker = render.addMarker(directions.routes[0].legs[0].end_location, false);
                 render.renders.push(directionsRenderer);          
                             
