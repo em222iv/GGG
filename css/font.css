@@ -42,6 +42,14 @@ article footer{
     display: none;
 }
 
+label{
+    font-size: 1em;
+}
+
+small{
+    font-size: 0.8em;
+}
+
 @media only screen and (max-width: 768px){
     
     .blogg {
